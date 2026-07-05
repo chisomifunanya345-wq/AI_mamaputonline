@@ -12,7 +12,7 @@ html {
 body {
     font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      overflow-x: hidden;
-    background-color: #c4935ae5 ;
+    /* background-color: #c4935ae5 ; */
     
 }
 
@@ -331,7 +331,7 @@ body {
 
 /* /* HERO SECTION STYLES */
 .hero {
-    background-image: url("./images/jollof.jpg");
+    background-image: url("../images/jollof.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

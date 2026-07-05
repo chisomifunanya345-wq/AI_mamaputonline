@@ -1,0 +1,1529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MamaPutOnline - Nigerian Local Cooked Meals</title>
+    <!-- Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts for bold typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+
+<body>
+
+<!-- NAVIGATION BAR / MENU SECTION-->
+
+    <nav class="navbar">
+        
+    <!-- Logo placed on the top left-hand corner -->
+    <!-- Custom SVG logo: Chef hat + stylized "M" for MamaPutOnline -->
+
+        <div class="logo">
+
+            <a href="#" class="logo-link">
+
+                <svg class="logo-svg" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Chef Hat -->
+
+                    <path class="chef-hat" d="M50 80 C50 50, 70 30, 100 30 C130 30, 150 50, 150 80 L150 100 L50 100 Z" fill="#D2691E"/>
+                    <path class="chef-hat-band" d="M45 95 L155 95 L155 115 L45 115 Z" fill="#FF8C00"/>
+                    <ellipse class="chef-hat-top" cx="100" cy="45" rx="25" ry="20" fill="#D2691E"/>
+                    
+                    <!-- Stylized Letter "M" forming body/spoon -->
+                    <path class="letter-m" d="M60 130 L60 180 L80 180 L80 150 L100 170 L120 150 L120 180 L140 180 L140 130 L100 160 Z" fill="#FFFFFF"/>
+                    
+                    <!-- Spoon dot -->
+                    <circle class="spoon-dot" cx="100" cy="185" r="8" fill="#FF8C00"/>
+                </svg>
+
+                <div class="logo-text">
+                    <span class="logo-main">MamaPut</span>
+                    <span class="logo-sub">Online</span>
+                </div>
+            </a>
+        </div>
+
+        <!-- Hamburger Menu Button (Mobile Only) -->
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+
+        <!-- Navigation Links Container -->
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#product"><i class="fas fa-utensils"></i> Product</a></li>
+            <li class="dropdown">
+                <a href="#customer-service" class="dropdown-toggle">
+                    <i class="fas fa-headset"></i> Customer Service 
+                    <i class="fas fa-chevron-down dropdown-arrow"></i>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#"><i class="fas fa-truck"></i> Home Delivery</a></li>
+                    <li><a href="#"><i class="fas fa-clock"></i> Order Tracking</a></li>
+                    <li><a href="#"><i class="fas fa-undo"></i>  Event Catering</a></li>
+                    <li><a href="#"><i class="fas fa-star"></i> Feedback & Reviews</a></li>
+                </ul>
+            </li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> Contact Us</a></li>
+        </ul>
+
+        <!-- Right-hand side icons and search -->
+
+        <div class="nav-right" id="navRight">
+           
+            <div class="search-box">
+                <input type="text" placeholder="Search meals...">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </div>
+
+            <a href="#cart" class="nav-icon" title="Add to Cart">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="badge">0</span>
+            </a>
+            
+        
+            <a href="#favourites" class="nav-icon" title="Add to Favourites">
+                <i class="fas fa-heart"></i>
+            </a>
+        </div>
+
+    </nav>
+
+    <main>
+
+        <!-- HERO SECTION-->
+        
+        <section class="hero" id="home">
+            
+            <!-- Left Partition: Bold Text Content -->
+            <div class="hero-text">
+                <div class="hero-text-content">
+                   
+                    <span class="hero-tagline">
+                        <i class="fas fa-fire"></i> Authentic Mamaputonline Where Every Meal Feels Like Home
+                    </span>
+                    
+                    <!-- Main bold heading - large print catchy words -->
+                    <h1 class="hero-heading">
+                        Taste the Streets, Feel the Tradition
+                        Your Favorite <span class="highlight">Local Meals</span> 
+                        Delivered Fresh 
+                    </h1>
+                    
+                    <!-- Subheading description -->
+                    <p class="hero-subtext">
+                        Why stress Cooking, When Home-Cooked Happiness Can Find You? Welcome to MamaPutOnline from our bustling kitchen to your doorstep — 
+                        savor piping hot <strong>seafood okro</strong>, <strong>Oha</strong>, 
+                        <strong>Nigeria party jellof</strong> & more. Handcrafted with love, 
+                        spices, and generations of tradition.
+                    </p>
+                    
+                    <!-- Call-to-Action Button -->
+                    <a href="#product" class="hero-cta">
+                        <i class="fas fa-utensils"></i> Order Your Bowl Now
+                    </a>
+                    
+                    <!-- Trust badges -->
+                    <div class="hero-badges">
+                        <div class="badge-item">
+                            <i class="fas fa-shipping-fast"></i>
+                            <span>Fast Delivery</span>
+                        </div>
+                        <div class="badge-item">
+                            <i class="fas fa-leaf"></i>
+                            <span>Fresh Ingredients</span>
+                        </div>
+                        <div class="badge-item">
+                            <i class="fas fa-award"></i>
+                            <span>Best Rated</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Partition: Nigerian Dish Image -->
+            <div class="hero-image">
+                
+                <div class="image-container">
+                    <!-- <img 
+                        src="../images/seafood okra soup.jpg" 
+                        alt="Steaming Nigerian Egusi Soup with assorted meat and palm oil - MamaPutOnline Signature Dish"
+                        class="hero-img"
+                    > -->
+
+
+                    <!-- Decorative steam effect overlay -->
+                    <div class="steam-overlay"></div>
+                    
+                    <!-- Floating price tag -->
+                    <div class="price-tag">
+                        <span class="price-label">From</span>
+                        <span class="price-amount">₦2,500</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+         
+    <!-- MAIN SECTION - MENU & PRODUCTS             -->
+    <!-- ========================================== -->
+    <!-- Side panel (left) with category links      -->
+    <!-- Right side with product cards per category -->
+    <!-- ========================================== -->
+    <section class="main-section" id="product">
+        
+        <!-- ========================================== -->
+        <!-- SIDE PANEL - Left Hand Side                -->
+        <!-- ========================================== -->
+        <aside class="side-panel" id="sidePanel">
+            <div class="side-panel-header">
+                <i class="fas fa-book-open"></i>
+                <h2>MENU</h2>
+            </div>
+            
+            <!-- Category navigation links -->
+            <nav class="category-nav">
+                <ul>
+                    <li>
+                        <a href="#category-soups" class="category-link active">
+                            <i class="fas fa-bowl-food"></i>
+                            <span>Soups</span>
+                            <i class="fas fa-chevron-right arrow"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#category-rice" class="category-link">
+                            <i class="fas fa-bowl-rice"></i>
+                            <span>Rice</span>
+                            <i class="fas fa-chevron-right arrow"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#category-pasta" class="category-link">
+                            <i class="fas fa-wheat-awn"></i>
+                            <span>Pasta</span>
+                            <i class="fas fa-chevron-right arrow"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#category-beans" class="category-link">
+                            <i class="fas fa-seedling"></i>
+                            <span>Beans</span>
+                            <i class="fas fa-chevron-right arrow"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#category-yam" class="category-link">
+                            <i class="fas fa-cookie"></i>
+                            <span>Yam</span>
+                            <i class="fas fa-chevron-right arrow"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#category-breakfast" class="category-link">
+                            <i class="fas fa-mug-hot"></i>
+                            <span>Special Breakfast</span>
+                            <i class="fas fa-chevron-right arrow"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#category-sides" class="category-link">
+                            <i class="fas fa-drumstick-bite"></i>
+                            <span>Special Side Dishes</span>
+                            <i class="fas fa-chevron-right arrow"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <!-- Mobile toggle button for side panel -->
+            <button class="side-panel-toggle" id="sidePanelToggle">
+                <i class="fas fa-bars"></i> Browse Categories
+            </button>
+        </aside>
+
+        <!-- ========================================== -->
+        <!-- PRODUCTS AREA - Right Hand Side            -->
+        <!-- ========================================== -->
+        <div class="products-area">
+            
+            <!-- ========================================== -->
+            <!-- CATEGORY: SOUPS                            -->
+            <!-- ========================================== -->
+            <div class="category-section" id="category-soups">
+                <div class="category-header">
+                    <div class="category-icon">
+                        <i class="fas fa-bowl-food"></i>
+                    </div>
+                    <div class="category-title">
+                        <h2>Soups</h2>
+                        <p>Rich, flavorful Nigerian soups cooked to perfection</p>
+                    </div>
+                </div>
+                
+                <div class="product-grid">
+                    <!-- Product Card 1 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/egusi soup.jpg" alt="Egusi Soup">
+                            <div class="product-badge discount">-5%</div>
+                            <div class="product-actions">
+                                <button class="action-btn heart"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn cart"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Egusi Soup</h3>
+                            <p class="product-desc">Ground melon seeds with palm oil, vegetables & assorted meat</p>
+                            <div class="product-price">
+                                <span class="current-price">₦6650</span>
+                                <span class="original-price">₦7000</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(4.8)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 2 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/OHA SOUP.jpg" alt="Oha Soup">
+                            <div class="product-badge new">NEW</div>
+                            <div class="product-actions">
+                                <button class="action-btn heart"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn cart"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Oha Soup</h3>
+                            <p class="product-desc">Traditional Oha leaves with cocoyam and smoked fish</p>
+                            <div class="product-price">
+                                <span class="current-price">₦4,000</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(5.0)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 3 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/Authentic Nigerian Edikang Ikong Soup Recipe _ Hearty & Flavorful Nigerian Soup.jpg" alt="Edikaikong Soup">
+                            <div class="product-badge hot">HOT</div>
+                            <div class="product-actions">
+                                <button class="action-btn heart"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn cart"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Edikaikong Soup</h3>
+                            <p class="product-desc">Ugu & water leaves with periwinkles and beef</p>
+                            <div class="product-price">
+                                <span class="current-price">₦5000</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(4.2)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 4 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/okro.jpg">
+                            <div class="product-actions">
+                                <button class="action-btn heart"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn cart"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Okro Soup</h3>
+                            <p class="product-desc">Fresh okra with seafood mix and palm oil base</p>
+                            <div class="product-price">
+                                <span class="current-price">₦3,200</span>
+                                <span class="original-price">₦3,600</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(4.6)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 5 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/bitterleaf soup.jpg" alt="Bitterleaf Soup">
+                            <div class="product-badge discount">-20%</div>
+                            <div class="product-actions">
+                                <button class="action-btn heart"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn cart"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Bitterleaf Soup</h3>
+                            <p class="product-desc">Washed bitterleaf with cocoyam and goat meat</p>
+                            <div class="product-price">
+                                <span class="current-price">₦6800</span>
+                                <span class="original-price">₦7000</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(4.9)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ========================================== -->
+            <!-- CATEGORY: RICE                             -->
+            <!-- ========================================== -->
+            <div class="category-section" id="category-rice">
+                <div class="category-header">
+                    <div class="category-icon">
+                        <i class="fas fa-bowl-rice"></i>
+                    </div>
+                    <div class="category-title">
+                        <h2>Rice</h2>
+                        <p>Perfectly seasoned rice dishes for every craving</p>
+                    </div>
+                </div>
+                
+                <div class="product-grid">
+                    <!-- Product Card 1 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/Jollof.jpg" alt="Jollof Rice">
+                            <div class="product-badge hot">HOT</div>
+                            <div class="product-actions">
+                                <button class="action-btn heart"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn cart"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Party Jollof Rice</h3>
+                            <p class="product-desc">Smoky party-style jollof with fried plantain & chicken</p>
+                            <div class="product-price">
+                                <span class="current-price">₦2,800</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(5.0)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 2 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/fried rice.jpg" alt="Fried Rice">
+                            <div class="product-actions">
+                                <button class="action-btn heart"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn cart"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Nigerian Fried Rice</h3>
+                            <p class="product-desc">Mixed vegetables rice with liver, prawns & eggs</p>
+                            <div class="product-price">
+                                <span class="current-price">₦3,000</span>
+                                <span class="original-price">₦3,500</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(4.7)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 3 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/ofada rice.jpg" alt="Ofada Rice">
+                            <div class="product-badge new">NEW</div>
+                            <div class="product-actions">
+                                <button class="action-btn heart"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn cart"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Ofada Rice</h3>
+                            <p class="product-desc">Local Ofada rice with ayamase sauce & assorted meat</p>
+                            <div class="product-price">
+                                <span class="current-price">₦3,500</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(4.3)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 4 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/coconut rice.jpg" alt="Coconut Rice">
+                            <div class="product-badge discount">-10%</div>
+                            <div class="product-actions">
+                                <button class="action-btn heart"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn cart"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Native jellof rice</h3>
+                            <p class="product-desc">Flavorful native rice with grilled turkey</p>
+                            <div class="product-price">
+                                <span class="current-price">₦7000</span>
+                                <span class="original-price">₦10000</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(4.5)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 5 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/rice stew.jpg" alt="White Rice & Stew">
+                            <div class="product-actions">
+                                <button class="action-btn heart"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn cart"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>White Rice & Stew</h3>
+                            <p class="product-desc">Steamed rice with rich tomato stew and fried fish</p>
+                            <div class="product-price">
+                                <span class="current-price">₦2,200</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(4.1)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ========================================== -->
+            <!-- CATEGORY: PASTA                            -->
+            <!-- ========================================== -->
+            <div class="category-section" id="category-pasta">
+                <div class="category-header">
+                    <div class="category-icon">
+                        <i class="fas fa-wheat-awn"></i>
+                    </div>
+                    <div class="category-title">
+                        <h2>Pasta</h2>
+                        <p>Italian-Nigerian fusion pasta creations</p>
+                    </div>
+                </div>
+                
+                <div class="product-grid">
+                    <!-- Product Card 1 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/Delicious Jollof Spaghetti.jpg" alt="Spaghetti Jollof">
+                            <div class="product-badge hot">HOT</div>
+                            <div class="product-actions">
+                                <button class="action-btn heart"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn cart"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Spaghetti Jollof</h3>
+                            <p class="product-desc">Spaghetti cooked in spicy jollof sauce with sausages</p>
+                            <div class="product-price">
+                                <span class="current-price">₦4,500</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(4.6)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 2 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/Macaroni.jpg" alt="Macaroni Stir-Fry">
+                            <div class="product-actions">
+                                <button class="action-btn heart"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn cart"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Macaroni Stir-Fry</h3>
+                            <p class="product-desc">Macaroni with mixed veggies, chicken strips & soy sauce</p>
+                            <div class="product-price">
+                                <span class="current-price">₦2,800</span>
+                                <span class="original-price">₦3,200</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(4.2)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 3 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/creamy pasta.jpg">
+                            <div class="product-badge discount">-15%</div>
+                            <div class="product-actions">
+                                <button class="action-btn heart"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn cart"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Creamy pasta</h3>
+                            <p class="product-desc">Upgraded creamy pasta with eggs, veggies</p>
+                            <div class="product-price">
+                                <span class="current-price">₦1,800</span>
+                                <span class="original-price">₦2,100</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(4.8)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 4 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/spaghetti and stew.jpg" alt="Pasta & Turkey">
+                            <div class="product-badge new">NEW</div>
+                            <div class="product-actions">
+                                <button class="action-btn heart"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn cart"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>spaghetti and stew</h3>
+                            <p class="product-desc"> pasta in tomato sauce with roasted turkey</p>
+                            <div class="product-price">
+                                <span class="current-price">₦4,500</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(4.7)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 5 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/native pasta.jpg" alt="Yam Porridge Pasta">
+                            <div class="product-actions">
+                                <button class="action-btn heart"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn cart"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Native pasta</h3>
+                            <p class="product-desc">Fusion dish combining native flavors</p>
+                            <div class="product-price">
+                                <span class="current-price">₦5,600</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(4.0)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ========================================== -->
+            <!-- CATEGORY: BEANS                            -->
+            <!-- ========================================== -->
+            <div class="category-section" id="category-beans">
+                <div class="category-header">
+                    <div class="category-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <div class="category-title">
+                        <h2>Beans</h2>
+                        <p>Nutritious beans dishes packed with protein</p>
+                    </div>
+                </div>
+                
+                <div class="product-grid">
+                    <!-- Product Card 1 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/ewagoin.jpg" alt="Ewa Agoyin">
+                            <div class="product-badge hot">HOT</div>
+                            <div class="product-actions">
+                                <button class="action-btn heart"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn cart"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Ewa Agoyin</h3>
+                            <p class="product-desc">Mashed beans with special Agoyin pepper sauce</p>
+                            <div class="product-price">
+                                <span class="current-price">₦1,500</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(4.9)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 2 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/beans and plaintain.jpg" alt="Beans & Plantain">
+                            <div class="product-actions">
+                                <button class="action-btn heart"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn cart"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Beans & Plantain</h3>
+                            <p class="product-desc">Stewed beans with ripe fried plantain slices</p>
+                            <div class="product-price">
+                                <span class="current-price">₦3,500</span>
+                                <span class="original-price">₦4,000</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(4.5)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 3 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/akara.jpg" alt="Akara">
+                            <div class="product-badge discount">-20%</div>
+                            <div class="product-actions">
+                                <button class="action-btn heart"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn cart"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Akara (Bean Cakes)</h3>
+                            <p class="product-desc">Crispy deep-fried bean balls - 10 pieces per pack</p>
+                            <div class="product-price">
+                                <span class="current-price">₦1,200</span>
+                                <span class="original-price">₦1,500</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(5.0)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 4 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/moi-moi .jpeg" alt="Moi Moi">
+                            <div class="product-badge new">NEW</div>
+                            <div class="product-actions">
+                                <button class="action-btn heart"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn cart"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Moi Moi</h3>
+                            <p class="product-desc">Steamed bean pudding with eggs, fish & crayfish</p>
+                            <div class="product-price">
+                                <span class="current-price">₦1,800</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(4.3)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 5 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/gbegiri.jpg" alt="Gbegiri Soup">
+                            <div class="product-actions">
+                                <button class="action-btn heart"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn cart"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Gbegiri Soup</h3>
+                            <p class="product-desc">Smooth beans soup served with ewedu & amala</p>
+                            <div class="product-price">
+                                <span class="current-price">₦2,200</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(4.6)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ========================================== -->
+            <!-- CATEGORY: YAM                              -->
+            <!-- ========================================== -->
+            <div class="category-section" id="category-yam">
+                <div class="category-header">
+                    <div class="category-icon">
+                        <i class="fas fa-cookie"></i>
+                    </div>
+                    <div class="category-title">
+                        <h2>Yam</h2>
+                        <p>Delicious yam dishes for every occasion</p>
+                    </div>
+                </div>
+                
+                <div class="product-grid">
+                    <!-- Product Card 1 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/Delicious Yam Porridge.jpg" alt="Yam Porridge">
+                            <div class="product-badge hot">HOT</div>
+                            <div class="product-actions">
+                                <button class="action-btn heart"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn cart"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Yam Porridge</h3>
+                            <p class="product-desc">Soft yam cubes in palm oil with spinach & dried fish</p>
+                            <div class="product-price">
+                                <span class="current-price">₦2,500</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(4.8)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 2 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/fried yam and fish sauce.jpg" alt="Fried Yam & Sauce">
+                            <div class="product-actions">
+                                <button class="action-btn heart"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn cart"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Fried Yam & Sauce</h3>
+                            <p class="product-desc">Crispy fried yam sticks with pepper sauce dip</p>
+                            <div class="product-price">
+                                <span class="current-price">₦2,800</span>
+                                <span class="original-price">₦3,000</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(4.2)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 3 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/roasted yam.jpg" alt="Roasted Yam">
+                            <div class="product-badge discount">-15%</div>
+                            <div class="product-actions">
+                                <button class="action-btn heart"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn cart"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Roasted Yam</h3>
+                            <p class="product-desc">Fire-roasted yam with red oil & utazi leaves</p>
+                            <div class="product-price">
+                                <span class="current-price">₦3,000</span>
+                                <span class="original-price">₦4,000</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(4.5)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 4 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/boiled yam and egg sauce.jpeg" alt="Yam & Egg">
+                            <div class="product-badge new">NEW</div>
+                            <div class="product-actions">
+                                <button class="action-btn heart"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn cart"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Yam & Egg Sauce</h3>
+                            <p class="product-desc">Boiled yam with scrambled eggs & tomato sauce</p>
+                            <div class="product-price">
+                                <span class="current-price">₦2,000</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(4.7)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 5 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/poundo and vegetable soup.jpg" alt="Pounded Yam">
+                            <div class="product-actions">
+                                <button class="action-btn heart"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn cart"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Pounded Yam</h3>
+                            <p class="product-desc">Smooth pounded yam served with  efo riro</p>
+                            <div class="product-price">
+                                <span class="current-price">₦5,800</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(4.6)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ========================================== -->
+            <!-- CATEGORY: SPECIAL BREAKFAST                -->
+            <!-- ========================================== -->
+            <div class="category-section" id="category-breakfast">
+                <div class="category-header">
+                    <div class="category-icon">
+                        <i class="fas fa-mug-hot"></i>
+                    </div>
+                    <div class="category-title">
+                        <h2>Special Breakfast</h2>
+                        <p>Start your day with authentic Nigerian morning delights</p>
+                    </div>
+                </div>
+                
+                <div class="product-grid">
+                    <!-- Product Card 1 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/akara.jpg" alt="Akara and Pap">
+                            <div class="product-badge hot">HOT</div>
+                            <div class="product-actions">
+                                <button class="action-btn heart"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn cart"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Akara & Pap</h3>
+                            <p class="product-desc">5 crispy bean cakes with warm pap/ogi & milk</p>
+                            <div class="product-price">
+                                <span class="current-price">₦2,500</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(5.0)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 2 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/Toast bread.jpg" alt="Toasted Bread & Egg">
+                            <div class="product-actions">
+                                <button class="action-btn heart"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn cart"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Toasted Bread & Fried Egg</h3>
+                            <p class="product-desc">Buttered toast with sunny-side-up egg & tea</p>
+                            <div class="product-price">
+                                <span class="current-price">₦1,800</span>
+                                <span class="original-price">₦2,000</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(4.4)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 3 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/moi-moi .jpeg" alt="Moi Moi Breakfast">
+                            <div class="product-badge discount">-10%</div>
+                            <div class="product-actions">
+                                <button class="action-btn heart"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn cart"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Moi Moi Deluxe</h3>
+                            <p class="product-desc">Steamed bean pudding with boiled egg & bread</p>
+                            <div class="product-price">
+                                <span class="current-price">₦2,000</span>
+                                <span class="original-price">₦2,200</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(4.1)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 4 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/fried yam and fish sauce.jpg" alt="Yam & Egg Breakfast">
+                            <div class="product-badge new">NEW</div>
+                            <div class="product-actions">
+                                <button class="action-btn heart"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn cart"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                             <h3>Yam & fish sauce </h3> 
+                            <p class="product-desc">Boiled yam with fish sauce & fresh juice</p>
+                            <div class="product-price">
+                                <span class="current-price">₦2,200</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(4.5)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 5 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/pancakes aux fruits.jpg" alt="Oats & Fruits">
+                            <div class="product-actions">
+                                <button class="action-btn heart"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn cart"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>pancakes</h3>
+                            <p class="product-desc">Warm pancake with apple & honey drizzle</p>
+                            <div class="product-price">
+                                <span class="current-price">₦1,600</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(4.0)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ========================================== -->
+            <!-- CATEGORY: SPECIAL SIDE DISHES              -->
+            <!-- ========================================== -->
+            <div class="category-section" id="category-sides">
+                <div class="category-header">
+                    <div class="category-icon">
+                        <i class="fas fa-drumstick-bite"></i>
+                    </div>
+                    <div class="category-title">
+                        <h2>Special Side Dishes</h2>
+                        <p>Exquisite accompaniments to elevate your meal</p>
+                    </div>
+                </div>
+                
+                <div class="product-grid">
+                    <!-- Product Card 1 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/nkwobi.jpg" alt="Nkwobi">
+                            <div class="product-badge hot">HOT</div>
+                            <div class="product-actions">
+                                <button class="action-btn heart"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn cart"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Nkwobi</h3>
+                            <p class="product-desc">Spiced cow foot with palm oil & utazi leaves</p>
+                            <div class="product-price">
+                                <span class="current-price">₦3,500</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(5.0)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 2 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/Abacha.jpg" alt="Abacha">
+                            <div class="product-badge discount">-15%</div>
+                            <div class="product-actions">
+                                <button class="action-btn heart"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn cart"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Abacha (African Salad)</h3>
+                            <p class="product-desc">Cassava flakes with palm oil, fish & garden egg</p>
+                            <div class="product-price">
+                                <span class="current-price">₦2,000</span>
+                                <span class="original-price">₦2,400</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(4.6)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 3 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/cat fish barbque.jpg" alt="Catfish Peppersoup">
+                            <div class="product-badge new">NEW</div>
+                            <div class="product-actions">
+                                <button class="action-btn heart"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn cart"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Catfish Peppersoup</h3>
+                            <p class="product-desc">Spicy catfish broth with yam or plantain</p>
+                            <div class="product-price">
+                                <span class="current-price">₦3,000</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(4.9)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 4 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/catfish barbaque.jpg" alt="Catfish Barbecue">
+                            <div class="product-actions">
+                                <button class="action-btn heart"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn cart"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Catfish Barbecue</h3>
+                            <p class="product-desc">Grilled catfish with spicy pepper sauce & onions</p>
+                            <div class="product-price">
+                                <span class="current-price">₦4,000</span>
+                                <span class="original-price">₦4,500</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(4.7)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 5 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/peppered goat meat.jpg" alt="Isi Ewu">
+                            <div class="product-badge discount">-20%</div>
+                            <div class="product-actions">
+                                <button class="action-btn heart"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn cart"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Isi Ewu</h3>
+                            <p class="product-desc">Spiced goat head delicacy with palm oil sauce</p>
+                            <div class="product-price">
+                                <span class="current-price">₦3,800</span>
+                                <span class="original-price">₦4,800</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(4.8)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- End of Products Area -->
+
+    </section>
+
+
+    <!-- ========================================== -->
+        <!-- ABOUT SECTION                              -->
+        <!-- ========================================== -->
+        <section class="about-section" id="about">
+            <div class="about-container">
+                <!-- Left: Logo/Image Area -->
+                <div class="about-image-area">
+                    <div class="about-image-wrapper">
+                        <svg class="about-logo-svg" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Cooking Pot with Fire -->
+                            <ellipse cx="100" cy="160" rx="60" ry="15" fill="#1a1a1a" opacity="0.3"/>
+                            <!-- Fire -->
+                            <path d="M70 155 Q80 120 100 100 Q120 120 130 155 Q115 140 100 145 Q85 140 70 155" fill="#FF4500"/>
+                            <path d="M85 155 Q90 135 100 125 Q110 135 115 155 Q108 148 100 150 Q92 148 85 155" fill="#FF8C00"/>
+                            <!-- Pot Body -->
+                            <path d="M50 100 L55 150 Q60 165 100 165 Q140 165 145 150 L150 100 Z" fill="#8B4513"/>
+                            <path d="M50 100 L150 100 L145 110 L55 110 Z" fill="#A0522D"/>
+                            <!-- Pot Rim -->
+                            <ellipse cx="100" cy="100" rx="52" ry="12" fill="#CD853F"/>
+                            <ellipse cx="100" cy="98" rx="48" ry="10" fill="#1a1a1a"/>
+                            <!-- Soup Contents -->
+                            <ellipse cx="100" cy="98" rx="44" ry="8" fill="#D2691E"/>
+                            <!-- Ingredients floating -->
+                            <circle cx="85" cy="95" r="4" fill="#228B22"/>
+                            <circle cx="100" cy="92" r="5" fill="#FF6347"/>
+                            <circle cx="115" cy="96" r="3" fill="#FFD700"/>
+                            <circle cx="92" cy="99" r="3" fill="#FF6347"/>
+                            <!-- Spoon -->
+                            <path d="M130 70 Q140 60 145 50 Q150 40 145 35 Q140 30 135 35 Q130 40 135 50 Q138 58 130 70" fill="#C0C0C0"/>
+                            <rect x="128" y="70" width="6" height="40" rx="3" fill="#A9A9A9" transform="rotate(-15 131 70)"/>
+                            <!-- Steam lines -->
+                            <path d="M80 70 Q75 50 85 35" stroke="rgba(255,255,255,0.4)" stroke-width="2" fill="none" stroke-linecap="round"/>
+                            <path d="M100 65 Q95 45 105 30" stroke="rgba(255,255,255,0.3)" stroke-width="2" fill="none" stroke-linecap="round"/>
+                            <path d="M120 70 Q115 50 125 35" stroke="rgba(255,255,255,0.4)" stroke-width="2" fill="none" stroke-linecap="round"/>
+                        </svg>
+                        <div class="about-logo-text">
+                            <span class="about-logo-main">MamaPut</span>
+                            <span class="about-logo-sub">Online</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Content Area -->
+                <div class="about-content">
+                    <span class="about-label">ABOUT US</span>
+                    <h2 class="about-heading">Enjoy An Exceptional<br>Journey of Taste</h2>
+                    <p class="about-description">
+                        MamaPutOnline brings the rich, warming flavours of Nigerian home cooking straight to you. Every pot is 
+                        prepared fresh daily with authentic ingredients — from locally-sourced palm oil to hand-ground crayfish.
+                    </p>
+
+                    <div class="about-features">
+                        <div class="about-feature-item">
+                            <div class="about-feature-icon">
+                                <i class="fas fa-fire"></i>
+                            </div>
+                            <div class="about-feature-text">
+                                <h4>Specialist Cooks</h4>
+                                <p>Our kitchen mamas have mastered traditional recipes passed down through generations.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature-item">
+                            <div class="about-feature-icon">
+                                <i class="fas fa-utensils"></i>
+                            </div>
+                            <div class="about-feature-text">
+                                <h4>Restaurant Quality</h4>
+                                <p>Restaurant-grade hygiene and presentation — delivered hot to your home.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul class="about-checklist">
+                        <li><i class="fas fa-check"></i> Fresh ingredients sourced daily from local markets</li>
+                        <li><i class="fas fa-check"></i> No artificial preservatives — cooked to order</li>
+                        <li><i class="fas fa-check"></i> Delivery in all GRA Portharcourt</li>
+                    </ul>
+
+                    <a href="#product" class="about-cta">
+                        LEARN MORE <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================== -->
+        <!-- SERVICES SECTION                           -->
+        <!-- ========================================== -->
+        <section class="services-section" id="services">
+            <div class="services-container">
+                <span class="services-label">SERVICES</span>
+                <h2 class="services-heading">What We Offer</h2>
+
+                <div class="services-grid">
+                    <!-- Service Card 1: Home Delivery -->
+                    <div class="service-card">
+                        <div class="service-icon-wrapper">
+                            <i class="fas fa-motorcycle"></i>
+                        </div>
+                        <h3 class="service-title">Express Delivery</h3>
+                        <p class="service-desc">
+                            Hot meals delivered to your doorstep within 45 minutes. Real-time tracking from our kitchen to your door across all Lagos zones.
+                        </p>
+                    </div>
+
+                    <!-- Service Card 2: Event Catering -->
+                    <div class="service-card service-card-active">
+                        <div class="service-icon-wrapper">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <h3 class="service-title">Event Catering</h3>
+                        <p class="service-desc">
+                            From intimate family gatherings to large corporate events. Custom menus featuring authentic Nigerian cuisine for any occasion.
+                        </p>
+                    </div>
+
+                    <!-- Service Card 3: Meal Subscriptions -->
+                    <div class="service-card">
+                        <div class="service-icon-wrapper">
+                            <i class="fas fa-box-open"></i>
+                        </div>
+                        <h3 class="service-title">Meal Subscriptions</h3>
+                        <p class="service-desc">
+                            Weekly and monthly meal plans tailored to your taste. Save time and money with curated home-cooked deliveries on schedule.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================== -->
+    <!-- FOOTER SECTION                             -->
+    <!-- ========================================== -->
+    <footer class="site-footer"> 
+       <div class="footer-container">
+            <div class="logo">
+
+                <a href="#" class="logo-link">
+
+                    <svg class="logo-svg" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Chef Hat -->
+
+                        <path class="chef-hat" d="M50 80 C50 50, 70 30, 100 30 C130 30, 150 50, 150 80 L150 100 L50 100 Z" fill="#D2691E"/>
+                        <path class="chef-hat-band" d="M45 95 L155 95 L155 115 L45 115 Z" fill="#FF8C00"/>
+                        <ellipse class="chef-hat-top" cx="100" cy="45" rx="25" ry="20" fill="#D2691E"/>
+                        
+                        <!-- Stylized Letter "M" forming body/spoon -->
+                        <path class="letter-m" d="M60 130 L60 180 L80 180 L80 150 L100 170 L120 150 L120 180 L140 180 L140 130 L100 160 Z" fill="#FFFFFF"/>
+                        
+                        <!-- Spoon dot -->
+                        <circle class="spoon-dot" cx="100" cy="185" r="8" fill="#FF8C00"/>
+                    </svg>
+
+                    <div class="logo-text">
+                        <span class="logo-main">MamaPut</span>
+                        <span class="logo-sub">Online</span>
+                    </div>
+                </a>
+            </div>
+                <div class="footer-center">
+                    <p class="footer-copyright">&copy; 2025 MamaPutOnline - Bringing mama's taste to your door</p>
+                </div>
+                <div class="footer-right">
+                    <a href="#" class="footer-social" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="footer-social" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="footer-social" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                    <a href="#" class="footer-social" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            
+            </div>    
+        
+        </div>    
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+
+</body>
+</html>

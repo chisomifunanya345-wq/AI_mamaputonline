@@ -1,0 +1,535 @@
+MY PROMPTS 
+
+Hi KIMI,
+
+As you already know through our multiple conversations that I'm learning web development and i am currently asked to vibe code a landing page of an online Nigerian local cooked meal restaurant called "MamaPutOnline" I will be needing your assistance to build this landing page and i will also need us to do it step by step according to the instructions i will be providing to you.
+Ensure to maintain each code provided to the previous code given so it aligns and maintains what was given before . in otherwords any new section code that would be created in the course of building this landing page should be writen in the same html file as the previous code generated. This code  should also be generated using HTML and vanilla CSS only and both should be done separately,HTML first then CSS and ensure to put comments in the html.
+
+
+Firstly, I need you to build me a landing page of  MamaPutOnline restaurant it should cover the following
+
+The menu section/menu bar:
+- should have a logo placed on the top left hand corner. 
+-should have a color of #c12528 (for the menu bar) , a box-shadow  styling, subtitles like home, product, customer service, contact us and a search window placed on the right hand side .
+-should have a hover effect which has a matching color with the menu bar for its subtitles. 
+- customer service should have a dropdown that opens up when hovered on . the drop down should be services of note as regards to food restuarants . you can scour the internet to find those. 
+-The menu bar should also have icons like add to cart, heart icons to add to favourites using fontawesome 
+-menu-bar should be sticky
+
+
+secondly i need you to build me a hero section which should be below the menu bar section, it should have the following features  ;
+
+-A 30% vertical length of the landing page and a 100% of the breathe of the page 
+-A vertical partitioning into two with one of the sides(being the left hand) displaying a picture of a steaming,deliciously-cooked Nigerian dish/soup . ensure to put the right aspect ratios to the image of the food provided and also with the right pixelization. Give the image a scaling styling. To the other side (the right side), it should have a bodly written words in large prints ,lettering inviting people to not miss the opportunity to buy from mamaputonline restuarant . 
+- A call to action button just below the hero text . it should have a hover effect
+- A boxshadow styling effect to the entire hero section. scour the internet to pick favourable colors for the hero section while making reference to the color used in the menu bar 
+
+Thirdly, i need you to equally build me the main section (it should be below the hero section) of this landing page  which should also have the following section features;
+
+-A side panel on the left hand side of the main section, give it a header written as MENU. This side panel should have categories of food that mamaputonline sells. The categories are namely
+ soups,
+ rice, 
+ pasta, 
+ beans, 
+ yam and
+ special breakfast that the restuarant offers  examples; akara and pap, toasted bread and fried egg with tea, moi moi etc.
+special side dishes example abacha, nkwobi, cat fish pepersoup, cat fish barbaque etc. 
+
+This categories listed should be section id such that when its clicked on it , it leads straight to that section in the page. 
+-On the right side of the main section, create all the categories listed in the side panel with each category row having at least five product cards. Each category shoulld come with its header and the product cards should then bear the different variety of that named category example; soups - edikaikong soup, okro soup, egusi soup etc, up to five .
+-Each product card should have a scaling styling, the prices they are sold for in Naira , 
+some should have discount sales 
+
+kimi i need you to build me an about section just exactly the way it is in the image sent and also instead of a special offer as seen in the image build me a services card that is also food related scour the internet to get that. please build me these inside the previous html file,that is maintain the html code and CSS style exactly as given but then include the about section and the services section inside it. Also include the styling for the sections inside the CSS. DO NOT CHNAGE MY CODES AND STYLES just include the sections and style appropriately. please confirm you that you understand before you proceed.
+ 
+lastly build me a footer that has the following features:
+-quick links 
+-social media links
+-it should be sticky but ensure it does not  not cover the main section and the logo should also made to appear here 
+
+1.0 Menu Section
+    1.1 Logo
+        1.1.1 Navigation container 
+        1.1.2 Logo wrapper 
+        1.1.3 Logo link 
+        1.1.4 SVG logo
+        1.1.5 Chef hat path 
+        1.1.6 Chef hat band 
+        1.1.7 Chef hat top 
+        1.1.8 Letter M path 
+        1.1.9 Spoon dot 
+        1.1.10 Logo text container 
+        1.1.11 Main text
+
+    1.2 Hamburger Menu
+        1.2.1 Hamburger button 
+         
+    1.3 Navigation Links
+        1.3.1 Links container 
+        1.3.2 Home link  with home icon
+        1.3.3 Product link with utensils icon
+        1.3.4 Customer Service dropdown 
+        1.3.5 Dropdown toggle  with headset icon
+        1.3.6 Dropdown arrow 
+        1.3.7 Dropdown menu 
+        1.3.8 Table Reservations  with utensils icon
+        1.3.9 Home Delivery  with truck icon
+        1.3.10 Order Tracking  with clock icon
+        1.3.11 Refund & Returns  with undo icon
+        1.3.12 Live Chat Support with comments icon
+        1.3.13 Loyalty Rewards with gift icon
+        1.3.14 Event Catering  with calendar-check icon
+        1.3.15 Feedback & Reviews  with star icon
+        1.3.16 Contact Us link  with envelope icon
+    
+    1.4 Right Side Icons
+    1.4.1 Right side container
+    1.4.2 Search box 
+    1.4.3 Search input 
+    1.4.4 Search button  with search icon
+    1.4.5 Cart icon  with shopping-cart icon
+    1.4.6 Cart badge 
+    1.4.7 Heart icon 
+
+
+2.0 Hero Section
+    2.1 Hero Container
+    2.1.1 Hero section 
+    2.2 Left Partition
+    2.2.1 Text container 
+    2.2.2 Text content wrapper 
+    2.2.3 Tagline  with fire icon
+    2.2.4 Main heading 
+    2.2.5 Highlight word Soul 
+    2.2.6 Highlight word Bite 
+    2.2.7 Subtext paragraph 
+    2.2.8 CTA button  with utensils icon
+    2.2.9 Badges container 
+    2.2.10 Fast Delivery badge with shipping-fast icon
+    2.2.11 Fresh Ingredients badge  with leaf icon
+    2.2.12 Best Rated badge with award icon
+    2.3 Right Partition
+    2.3.1 Image container 
+    2.3.2 Image wrapper 
+    2.3.3 Hero image 
+    2.3.4 Steam overlay 
+    2.3.5 Price tag 
+    2.3.6 Price label 
+    2.3.7 Price amount 
+
+
+3.0 Main Section
+    3.1 Main Container
+    3.1.1 Main section 
+    3.2 Side Panel
+    3.2.1 Side panel
+    3.2.2 Panel header
+    3.2.3 Menu icon 
+    3.2.4 Menu title 
+    3.2.5 Category navigation
+    3.2.6 Soups category 
+    3.2.7 Rice category  
+    3.2.8 Pasta category  
+    3.2.9 Beans category  
+    3.2.10 Yam category 
+    3.2.11 Special Breakfast category 
+    3.2.12 Special Side Dishes category 
+    3.2.13 Side panel toggle  
+    3.3 Products Area
+    3.3.1 Products container 
+
+4.0 Category Soups
+    4.0.1 Soups section 
+    4.0.2 Category header 
+    4.0.3 Category icon  with bowl-food icon
+    4.0.4 Category title 
+    4.0.5 Title 
+    4.0.6 Description 
+    4.0.7 Product grid 
+    4.1 Egusi Soup
+    4.1.1 Product card 
+    4.1.2 Product image 
+    4.1.3 Discount badge 
+    4.1.4 Product actions heart button  with heart icon
+    4.1.5 Product actions cart button  with shopping-cart icon
+    4.1.6 Product info 
+    4.1.7 Product name 
+    4.1.8 Product description 
+    4.1.9 Current price
+    4.1.10 Original price 
+    4.1.11 Rating stars with star icons
+    4.1.12 Rating value 
+    4.2 Oha Soup
+    4.2.1 Product card 
+    4.2.2 Product image 
+    4.2.3 NEW badge 
+    4.2.4 Heart button
+    4.2.5 Cart button
+    4.2.6 Product name 
+    4.2.7 Current price 
+    4.2.8 Rating 
+    4.3 Edikaikong Soup
+    4.3.1 Product card 
+    4.3.2 Product image 
+    4.3.3 HOT badge 
+    4.3.4 Heart button
+    4.3.5 Cart button
+    4.3.6 Product name 
+    4.3.7 Current price 
+    4.3.8 Rating 
+    4.4 Okro Soup
+    4.4.1 Product card 
+    4.4.2 Product image 
+    4.4.3 Heart button
+    4.4.4 Cart button
+    4.4.5 Product name 
+    4.4.6 Current price 
+    4.4.7 Original price 
+    4.4.8 Rating 
+    4.5 Bitterleaf Soup
+    4.5.1 Product card 
+    4.5.2 Product image 
+    4.5.3 Discount badge
+    4.5.4 Heart button
+    4.5.5 Cart button
+    4.5.6 Product name 
+    4.5.7 Current price 
+    4.5.8 Original price 
+    4.5.9 Rating
+5.0 Category Rice
+    5.0.1 Rice section 
+    5.0.2 Category header with bowl-rice icon
+    5.0.3 Title
+    5.0.4 Description 
+    5.0.5 Product grid 
+    5.1 Party Jollof Rice
+    5.1.1 Product card
+    5.1.2 Product image 
+    5.1.3 HOT badge
+    5.1.4 Heart and cart buttons
+    5.1.5 Product name 
+    5.1.6 Current price 
+    5.1.7 Rating
+    5.2 Nigerian Fried Rice
+    5.2.1 Product card
+    5.2.2 Product image 
+    5.2.3 Heart and cart buttons
+    5.2.4 Product name 
+    5.2.5 Current price
+    5.2.6 Original price 
+    5.2.7 Rating 
+    5.3 Ofada Rice
+    5.3.1 Product card
+    5.3.2 Product image 
+    5.3.3 NEW badge
+    5.3.4 Heart and cart buttons
+    5.3.5 Product name 
+    5.3.6 Current price 
+    5.3.7 Rating 
+    5.4 Coconut Rice
+    5.4.1 Product card
+    5.4.2 Product image 
+    5.4.3 Discount badge -10%
+    5.4.4 Heart and cart buttons
+    5.4.5 Product name 
+    5.4.6 Current price
+    5.4.7 Original price 
+    5.4.8 Rating 
+    5.5 White Rice & Stew
+    5.5.1 Product card
+    5.5.2 Product image
+    5.5.3 Heart and cart buttons
+    5.5.4 Product name 
+    5.5.5 Current price 
+    5.5.6 Rating 
+6.0 Category Pasta
+6.0.1 Pasta section 
+6.0.2 Category header with wheat-awn icon
+6.0.3 Title 
+6.0.4 Description
+6.0.5 Product grid 
+6.1 Spaghetti Jollof
+6.1.1 Product card
+6.1.2 Product image
+6.1.3 HOT badge
+6.1.4 Heart and cart buttons
+6.1.5 Product name
+6.1.6 Current price 
+6.1.7 Rating
+6.2 Macaroni Stir-Fry
+6.2.1 Product card
+6.2.2 Product image 
+6.2.3 Heart and cart buttons
+6.2.4 Product name
+6.2.5 Current price 
+6.2.6 Original price 
+6.2.7 Rating
+6.3 Indomie Special
+6.3.1 Product card
+6.3.2 Product image 
+6.3.3 Discount badge -15%
+6.3.4 Heart and cart buttons
+6.3.5 Product name 
+6.3.6 Current price 
+6.3.7 Original price 
+6.3.8 Rating
+6.4 Pasta & Turkey
+6.4.1 Product card
+6.4.2 Product image
+6.4.3 NEW badge
+6.4.4 Heart and cart buttons
+6.4.5 Product name
+6.4.6 Current price 
+6.4.7 Rating
+6.5 Yam Porridge Pasta
+6.5.1 Product card
+6.5.2 Product image 
+6.5.3 Heart and cart buttons
+6.5.4 Product name 
+6.5.5 Current price 
+6.5.6 Rating 
+7.0 Category Beans
+7.0.1 Beans section 
+7.0.2 Category header with seedling icon
+7.0.3 Title 
+7.0.4 Description 
+7.0.5 Product grid 
+7.1 Ewa Agoyin
+7.1.1 Product card
+7.1.2 Product image
+7.1.3 HOT badge
+7.1.4 Heart and cart buttons
+7.1.5 Product name 
+7.1.6 Current price 
+7.1.7 Rating 
+7.2 Beans & Plantain
+7.2.1 Product card
+7.2.2 Product image 
+7.2.3 Heart and cart buttons
+7.2.4 Product name 
+7.2.5 Current price 
+7.2.6 Original price
+7.2.7 Rating 
+7.3 Akara (Bean Cakes)
+7.3.1 Product card
+7.3.2 Product image
+7.3.3 Discount badge -20%
+7.3.4 Heart and cart buttons
+7.3.5 Product name 
+7.3.6 Current price 
+7.3.7 Original price
+7.3.8 Rating 
+7.4 Moi Moi
+7.4.1 Product card
+7.4.2 Product image 
+7.4.3 NEW badge
+7.4.4 Heart and cart buttons
+7.4.5 Product name
+7.4.6 Current price
+7.4.7 Rating 
+7.5 Gbegiri Soup
+7.5.1 Product card
+7.5.2 Product image 
+7.5.3 Heart and cart buttons
+7.5.4 Product name 
+7.5.5 Current price 
+7.5.6 Rating
+8.0 Category Yam
+8.0.1 Yam section 
+8.0.2 Category header with cookie icon
+8.0.3 Title
+8.0.4 Description 
+8.0.5 Product grid 
+8.1 Yam Porridge
+8.1.1 Product card
+8.1.2 Product image 
+8.1.3 HOT badge
+8.1.4 Heart and cart buttons
+8.1.5 Product name 
+8.1.6 Current price 
+8.1.7 Rating 
+8.2 Fried Yam & Sauce
+8.2.1 Product card
+8.2.2 Product image 
+8.2.3 Heart and cart buttons
+8.2.4 Product name 
+8.2.5 Current price
+8.2.6 Original price
+8.2.7 Rating 
+8.3 Roasted Yam
+8.3.1 Product card
+8.3.2 Product image 
+8.3.4 Heart and cart buttons
+8.3.5 Product name 
+8.3.6 Current price 
+8.3.7 Original price 
+8.4 Yam & Egg Sauce
+8.4.1 Product card
+8.4.2 Product image 
+8.4.3 NEW badge
+8.4.4 Heart and cart buttons
+8.4.5 Product name 
+8.4.6 Current price 
+8.4.7 Rating
+8.5 Pounded Yam
+8.5.1 Product card
+8.5.2 Product image 
+8.5.3 Heart and cart buttons
+8.5.4 Product name 
+8.5.5 Current price 
+8.5.6 Rating 
+9.0 Category Special Breakfast
+9.0.1 Breakfast section 
+9.0.2 Category header with mug-hot icon
+9.0.3 Title 
+9.0.4 Description 
+9.0.5 Product grid 
+9.1 Akara & Pap
+9.1.1 Product card
+9.1.2 Product image 
+9.1.3 HOT badge
+9.1.4 Heart and cart buttons
+9.1.5 Product name
+9.1.6 Current price 
+9.1.7 Rating 
+9.2 Toasted Bread & Fried Egg
+9.2.1 Product card
+9.2.2 Product image 
+9.2.3 Heart and cart buttons
+9.2.4 Product name
+9.2.5 Current price 
+9.2.6 Original price
+9.2.7 Rating 
+9.3 Moi Moi Deluxe
+9.3.1 Product card
+9.3.2 Product image
+9.3.3 Discount badge -10%
+9.3.4 Heart and cart buttons
+9.3.5 Product name 
+9.3.6 Current price
+9.3.7 Original price
+9.3.8 Rating 
+9.4 Yam & Egg Combo
+9.4.1 Product card
+9.4.2 Product image 
+9.4.3 NEW badge
+9.4.4 Heart and cart buttons
+9.4.5 Product name 
+9.4.6 Current price
+9.4.7 Rating 
+9.5 Oats & Fresh Fruits
+9.5.1 Product card
+9.5.3 Heart and cart buttons
+9.5.4 Product name
+9.5.5 Current price 
+9.5.6 Rating 
+10.0 Category Special Side Dishes
+10.0.1 Side dishes section
+10.0.2 Category header with drumstick-bite icon
+10.0.3 Title Special Side Dishes
+10.0.4 Description 
+10.0.5 Product grid 
+10.1 Nkwobi
+10.1.1 Product card
+10.1.2 Product image 
+10.1.3 HOT badge
+10.1.4 Heart and cart buttons
+10.1.5 Product name
+10.1.6 Current price
+10.1.7 Rating 
+10.2 Abacha (African Salad)
+10.2.1 Product card
+10.2.2 Product image 
+10.2.3 Discount badge -15%
+10.2.4 Heart and cart buttons
+10.2.5 Product name
+10.2.6 Current price
+10.2.7 Original price 
+10.2.8 Rating
+10.3 Catfish Peppersoup
+10.3.1 Product card
+10.3.2 Product image
+10.3.3 NEW badge
+10.3.4 Heart and cart buttons
+10.3.5 Product name 
+10.3.6 Current price
+10.3.7 Rating
+10.4 Catfish Barbecue
+10.4.1 Product card
+10.4.2 Product image 
+10.4.3 Heart and cart buttons
+10.4.4 Product name
+10.4.5 Current price 
+10.4.6 Original price
+10.4.7 Rating 
+10.5 Isi Ewu
+10.5.1 Product card
+10.5.2 Product image 
+10.5.3 Discount badge -20%
+10.5.4 Heart and cart buttons
+10.5.5 Product name 
+10.5.6 Current price 
+10.5.7 Original price 
+10.5.8 Rating 
+11.0 Footer Section
+11.1 Footer Container
+11.1.1 Footer 
+11.1.2 Footer wrapper 
+11.2 Footer Top
+11.2.1 Top section
+11.2.3 Logo link with SVG (reused from 1.1)
+11.2.4 Logo text "MamaPutOnline" (reused from 1.1)
+11.2.5 Footer tagline 
+11.3 Footer Middle
+11.3.1 Middle section 
+11.3.2 Quick Links Column
+11.3.2.1 Column container 
+11.3.2.2 Heading  with link icon
+11.3.2.3 Links list 
+11.3.2.4 Home link  with chevron-right icon
+11.3.2.5 Our Menu link  with chevron-right icon
+11.3.2.6 Soups link  with chevron-right icon
+11.3.2.7 Rice Dishes link with chevron-right icon
+11.3.2.8 Breakfast link  with chevron-right icon
+11.3.2.9 Side Dishes link  with chevron-right icon
+11.3.3 Services Column
+11.3.3.1 Column container 
+11.3.3.2 Heading  with concierge-bell icon
+11.3.3.3 Services list 
+11.3.3.4 Home Delivery  with chevron-right icon
+11.3.3.5 Event Catering with chevron-right icon
+11.3.3.6 Table Reservations  with chevron-right icon
+11.3.3.7 Order Tracking  with chevron-right icon
+11.3.3.8 Loyalty Rewards with chevron-right icon
+11.3.3.9 Live Chat Support  with chevron-right icon
+11.3.4 Contact Us Column
+11.3.4.1 Column container 
+11.3.4.2 Heading  with address-card icon
+11.3.4.3 Contact list 
+11.3.4.4 Address with map-marker-alt icon
+11.3.4.5 Phone with phone-alt icon
+11.3.4.6 Email with envelope icon
+11.3.4.7 Opening Hours with clock icon
+11.3.5 Follow Us Column
+11.3.5.1 Column container 
+11.3.5.2 Heading with share-alt icon
+11.3.5.3 Social text 
+11.3.5.4 Social icons container 
+11.3.5.5 Facebook  with facebook-f icon
+11.3.5.6 Instagram  with instagram icon
+11.3.5.7 Twitter/X with x-twitter icon
+11.3.5.8 WhatsApp  with whatsapp icon
+11.3.5.9 YouTube with youtube icon
+11.3.5.10 Newsletter 
+11.3.5.11 Newsletter heading
+11.3.5.12 Newsletter form
+11.3.5.13 Email input
+11.3.5.14 Submit button
+11.4 Footer Bottom
+11.4.1 Bottom section
+11.4.2 Bottom content 
+11.4.3 Copyright 
+11.4.4 Bottom links 
+11.4.5 Privacy Policy
+11.4.6 Terms of Service 
+11.4.7 Refund Policy 
